@@ -43,7 +43,7 @@ Let's fix this by creating a new controller for our static pages, adding a new f
 This will create a blank controller file that we can use to map to the routing file. Since there are a number of methods built into the Rails controller system, you will also want the controller to inherit from the application controller. The new file should have code that looks like this:
 
 ```ruby
-class StaticController < ApplicationController
+
 end
 ```
 
